@@ -1,4 +1,4 @@
-package exercises.week1;
+package com.exercises.week1;
 
 public class Book {
     private String title;
