@@ -3,7 +3,9 @@ package com.Examples.week1;
 public class Example {
     public static void main(String[] args) {
         int x = 5;
-        int[] values = new int[100];
+        int[] values = new int[2];
+        values[values.length-1] = -5;
+        System.out.println(values[1]);
 
         seeValue(99, values);
     }
