@@ -1,4 +1,4 @@
-package com.Examples.week2;
+package com.examples.week2;
 
 public class Driver {
     public static void main(String[] args) {

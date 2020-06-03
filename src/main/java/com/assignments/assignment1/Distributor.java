@@ -20,6 +20,7 @@ public class Distributor {
         if(this.numberOfMovies >= movies.length) {
             return false;
         }
+
         this.movies[numberOfMovies] = movie;
         numberOfMovies++;
         return true;
@@ -35,16 +36,11 @@ public class Distributor {
         }
         movie.addToEarnings(earnings);
 
-        if(this.numberOfMovies >= movies.length) {
-            return false;
-        }
-        this.movies[numberOfMovies] = movie;
-        numberOfMovies++;
-        return true;
+        return this.addMovie(movie);
     }
 
-    public void totalNumMovies() {
-        System.out.println(this.numberOfMovies);
+    public int totalNumMovies() {
+        return this.numberOfMovies;
     }
 
     // total earnings of all movies for distributor
@@ -77,7 +73,7 @@ public class Distributor {
     }
 
     public int getNumGenre(int genre) {
-        if(genre > 3 || genre < 0) {
+        if(genre >= 3 || genre < 0) {
             return -1;
         } else {
             int genreCount = 0;
@@ -90,8 +86,17 @@ public class Distributor {
         }
     }
 
-    // TODO: make this more verbose when working with tax rates
+    /**
+     *
+     * @param taxRate - Tax rate in decimal form. E.g: use .15 for 15%
+     * @param distributor - a distributor object
+     * @return - the amount in tax as a double
+     * @exception IllegalArgumentException - thrown when tax rate is greater than 1 or 100%
+     */
     public static double calculateTax(double taxRate, Distributor distributor) {
+        if(taxRate > 1.00) {
+            throw(new IllegalArgumentException());
+        }
         return distributor.findTotalEarnings() * taxRate;
     }
 

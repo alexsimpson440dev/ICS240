@@ -1,5 +1,5 @@
-apply plugin: "java"
-apply plugin: "groovy"
+apply plugin: 'java'
+apply plugin: 'groovy'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
@@ -9,12 +9,12 @@ repositories {
     // Spock releases are available from Maven Central
     mavenCentral()
     // Spock snapshots are available from the Sonatype OSS snapshot repository
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
 }
 
 dependencies {
     // mandatory dependencies for using Spock
-    compile "org.codehaus.groovy:groovy-all:2.5.8"
-    testCompile platform("org.spockframework:spock-bom:2.0-M1-groovy-2.5")
-    testCompile "org.spockframework:spock-core"
+    compile 'org.codehaus.groovy:groovy-all:2.5.8'
+    testCompile platform('org.spockframework:spock-bom:2.0-M1-groovy-2.5')
+    testCompile 'org.spockframework:spock-core'
 }

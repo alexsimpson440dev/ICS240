@@ -10,6 +10,7 @@ class MovieSpecification extends Specification {
     def "Create Movie"() {
         when:
             Movie movie = setup()
+
         then:
             movie.name == "Name"
             movie.directorName == "Director Name"
@@ -19,6 +20,7 @@ class MovieSpecification extends Specification {
     def "Failed to Create Movie"() {
         when:
             new Movie("Name", "Director Name", 4)
+
         then:
             thrown(InstantiationException)
     }
@@ -27,8 +29,9 @@ class MovieSpecification extends Specification {
         when:
             Movie movie = setup()
             movie.addToEarnings(100.00)
+
         then:
-            movie.getEarnings() == 100.00
+            movie.getEarnings() == 100
     }
 
     /*
@@ -42,6 +45,7 @@ class MovieSpecification extends Specification {
             Movie x = setup()
             Movie y = setup()
             Movie z = setup()
+
         then:
             // reflexive
             x == x
@@ -77,6 +81,7 @@ class MovieSpecification extends Specification {
             movie.setName("new name")
             movie.setDirectorName("new")
             movie.setGenre(1)
+
         then:
             movie.toString() == "Movie Name: " + movie.getName() +
                     "\nDirector: " + movie.getDirectorName() +

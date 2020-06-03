@@ -14,7 +14,7 @@ public class Movie {
      * @throws InstantiationException - exception when class is instantiated with genre value out of bounds
      */
     public Movie(String name, String directorName, int genre) throws InstantiationException {
-        if(genre < 0 || genre > 3) {
+        if(genre < 0 || genre >= 3) {
             throw new InstantiationException();
         }
         this.name = name;
