@@ -29,7 +29,7 @@ public class Movie {
     @Override
     public boolean equals(Object obj) {
         // Makes sure obj is of Movie class before casting
-        if(this.getClass() != obj.getClass()) {
+        if(obj == null || this.getClass() != obj.getClass()) {
             return false;
         }
 
