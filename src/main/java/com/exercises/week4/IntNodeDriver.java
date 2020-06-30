@@ -23,6 +23,7 @@ public class IntNodeDriver {
 
         System.out.println(sum);
         System.out.println(max(newHead));
+        System.out.println(linkedListAverage(newHead));
     }
 
     public static int max(IntNode cursor) {
@@ -42,6 +43,23 @@ public class IntNodeDriver {
         }
 
         return temp;
+    }
+
+    public static double linkedListAverage(IntNode cursor) {
+        if(cursor == null) {
+            return 0;
+        }
+
+        double total = 0.0;
+        int count = 0;
+
+        while(cursor != null) {
+            count ++;
+            total += cursor.getData();
+            cursor = cursor.getLink();
+        }
+
+        return total/count;
     }
 
 }

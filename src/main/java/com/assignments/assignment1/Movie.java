@@ -28,8 +28,9 @@ public class Movie {
 
     @Override
     public boolean equals(Object obj) {
+        if(this == obj) return true;
         // Makes sure obj is of Movie class before casting
-        if(obj == null || this.getClass() != obj.getClass()) {
+        if(this.getClass() != obj.getClass()) {
             return false;
         }
 

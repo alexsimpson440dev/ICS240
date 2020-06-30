@@ -4,6 +4,7 @@ public class Book {
     private String title;
     private int yearOfPublish;
     private String[] pages;
+    private static int count;
 
     public Book() {
 
@@ -13,6 +14,11 @@ public class Book {
         this.title = title;
         this.yearOfPublish = yearOfPublish;
         this.pages = pages;
+        count++;
+    }
+
+    public static int getCount() {
+        return count;
     }
 
     public String getTitle() {
