@@ -10,18 +10,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/test/com/assignments/assignment1/DistributorSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/test/com/assignments/assignment1/DistributorSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment1/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment1/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment1/MovieDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment1/MovieDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week1/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week1/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week1/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week1/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week4/IntNodeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/exercises/week4/IntNodeDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/assignment1/Archive.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/assignment1/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignments/assignment1/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercises/week1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercises/week1/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercises/week1/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercises/week1/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercises/week4/IntNodeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercises/week4/IntNodeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/assignments/assignment1/DistributorTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/assignments/assignment1/DistributorTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment2/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment2/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment2/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/assignments/assignment2/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/Engine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +142,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week5">
+  <component name="RunManager" selected="Application.Driver (1)">
     <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.Driver" />
       <module name="ICS240.main" />
@@ -218,8 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Week5" />
         <item itemvalue="Application.Driver (1)" />
+        <item itemvalue="Application.Week5" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.IntNodeDriver" />
         <item itemvalue="Application.scratch" />
@@ -248,7 +240,7 @@
       <workItem from="1591813093236" duration="24000" />
       <workItem from="1592489888973" duration="6200000" />
       <workItem from="1592941130582" duration="1498000" />
-      <workItem from="1593555628994" duration="1882000" />
+      <workItem from="1593555628994" duration="21173000" />
     </task>
     <servers />
   </component>
@@ -293,68 +285,76 @@
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
     <state x="-1285" y="332" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1592489922491" />
-    <state width="1864" height="200" key="GridCell.Tab.0.bottom" timestamp="1593558555706">
+    <state width="1864" height="366" key="GridCell.Tab.0.bottom" timestamp="1594071865446">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="200" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593558555706" />
+    <state width="1864" height="366" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865446" />
     <state width="1864" height="261" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590176734953" />
     <state width="2518" height="343" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.0.1920.1200@1920.0.2560.1440" timestamp="1589984035430" />
+    <state width="1864" height="366" key="GridCell.Tab.0.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224108" />
     <state width="1864" height="350" key="GridCell.Tab.0.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973830" />
     <state width="1864" height="485" key="GridCell.Tab.0.bottom/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652689" />
     <state width="1864" height="448" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539938" />
     <state width="1864" height="351" key="GridCell.Tab.0.bottom/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703133" />
-    <state width="1864" height="200" key="GridCell.Tab.0.center" timestamp="1593558555704">
+    <state width="1864" height="366" key="GridCell.Tab.0.center" timestamp="1594071865444">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="200" key="GridCell.Tab.0.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593558555704" />
+    <state width="1864" height="366" key="GridCell.Tab.0.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865444" />
     <state width="1864" height="261" key="GridCell.Tab.0.center/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590176734951" />
     <state width="2518" height="343" key="GridCell.Tab.0.center/1920.0.2560.1440/0.0.1920.1200@1920.0.2560.1440" timestamp="1589984035428" />
+    <state width="1864" height="366" key="GridCell.Tab.0.center/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224106" />
     <state width="1864" height="350" key="GridCell.Tab.0.center/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973829" />
     <state width="1864" height="485" key="GridCell.Tab.0.center/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652687" />
     <state width="1864" height="448" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539936" />
     <state width="1864" height="351" key="GridCell.Tab.0.center/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703130" />
-    <state width="1864" height="200" key="GridCell.Tab.0.left" timestamp="1593558555703">
+    <state width="1864" height="366" key="GridCell.Tab.0.left" timestamp="1594071865442">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="200" key="GridCell.Tab.0.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593558555703" />
+    <state width="1864" height="366" key="GridCell.Tab.0.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865442" />
     <state width="1864" height="261" key="GridCell.Tab.0.left/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590176734950" />
     <state width="2518" height="343" key="GridCell.Tab.0.left/1920.0.2560.1440/0.0.1920.1200@1920.0.2560.1440" timestamp="1589984035427" />
+    <state width="1864" height="366" key="GridCell.Tab.0.left/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224105" />
     <state width="1864" height="350" key="GridCell.Tab.0.left/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973828" />
     <state width="1864" height="485" key="GridCell.Tab.0.left/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652686" />
     <state width="1864" height="448" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539935" />
     <state width="1864" height="351" key="GridCell.Tab.0.left/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703129" />
-    <state width="1864" height="200" key="GridCell.Tab.0.right" timestamp="1593558555705">
+    <state width="1864" height="366" key="GridCell.Tab.0.right" timestamp="1594071865445">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="200" key="GridCell.Tab.0.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593558555705" />
+    <state width="1864" height="366" key="GridCell.Tab.0.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865445" />
     <state width="1864" height="261" key="GridCell.Tab.0.right/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590176734952" />
     <state width="2518" height="343" key="GridCell.Tab.0.right/1920.0.2560.1440/0.0.1920.1200@1920.0.2560.1440" timestamp="1589984035429" />
+    <state width="1864" height="366" key="GridCell.Tab.0.right/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224107" />
     <state width="1864" height="350" key="GridCell.Tab.0.right/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973830" />
     <state width="1864" height="485" key="GridCell.Tab.0.right/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652688" />
     <state width="1864" height="448" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539937" />
     <state width="1864" height="351" key="GridCell.Tab.0.right/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703132" />
-    <state width="1864" height="350" key="GridCell.Tab.1.bottom" timestamp="1593184753853">
+    <state width="1864" height="366" key="GridCell.Tab.1.bottom" timestamp="1594071865556">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="350" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593184753853" />
+    <state width="1864" height="366" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865556" />
+    <state width="1864" height="366" key="GridCell.Tab.1.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224113" />
     <state width="1864" height="350" key="GridCell.Tab.1.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973833" />
     <state width="1864" height="367" key="GridCell.Tab.1.bottom/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668111" />
-    <state width="1864" height="350" key="GridCell.Tab.1.center" timestamp="1593184753851">
+    <state width="1864" height="366" key="GridCell.Tab.1.center" timestamp="1594071865553">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="350" key="GridCell.Tab.1.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593184753851" />
+    <state width="1864" height="366" key="GridCell.Tab.1.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865553" />
+    <state width="1864" height="366" key="GridCell.Tab.1.center/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224110" />
     <state width="1864" height="350" key="GridCell.Tab.1.center/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973832" />
     <state width="1864" height="367" key="GridCell.Tab.1.center/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668110" />
-    <state width="1864" height="350" key="GridCell.Tab.1.left" timestamp="1593184753850">
+    <state width="1864" height="366" key="GridCell.Tab.1.left" timestamp="1594071865552">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="350" key="GridCell.Tab.1.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593184753850" />
+    <state width="1864" height="366" key="GridCell.Tab.1.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865552" />
+    <state width="1864" height="366" key="GridCell.Tab.1.left/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224109" />
     <state width="1864" height="350" key="GridCell.Tab.1.left/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973831" />
     <state width="1864" height="367" key="GridCell.Tab.1.left/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668109" />
-    <state width="1864" height="350" key="GridCell.Tab.1.right" timestamp="1593184753852">
+    <state width="1864" height="366" key="GridCell.Tab.1.right" timestamp="1594071865554">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="350" key="GridCell.Tab.1.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1593184753852" />
+    <state width="1864" height="366" key="GridCell.Tab.1.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594071865554" />
+    <state width="1864" height="366" key="GridCell.Tab.1.right/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224112" />
     <state width="1864" height="350" key="GridCell.Tab.1.right/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973832" />
     <state width="1864" height="367" key="GridCell.Tab.1.right/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668111" />
     <state x="-1435" y="195" key="SettingsEditor" timestamp="1591197992971">
@@ -377,6 +377,17 @@
     </state>
     <state x="-1396" y="204" width="872" height="1032" key="search.everywhere.popup/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591215612132" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/assignments/assignment2/Driver.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ICS240$DistributorSpecification.ic" NAME="DistributorSpecification Coverage Results" MODIFIED="1591210669790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment1.*</FILTER>
@@ -386,6 +397,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/ICS240$MovieSpecification__1_.ic" NAME="MovieSpecification (1) Coverage Results" MODIFIED="1590176726464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$Driver__1_.ic" NAME="Driver (1) Coverage Results" MODIFIED="1594062463154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
     </SUITE>
   </component>
 </project>

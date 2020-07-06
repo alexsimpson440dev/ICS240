@@ -33,6 +33,7 @@ public class Engine implements Comparable<Engine> {
 
     @Override
     public int compareTo(Engine engine) {
+        // throw exception for null engine (cant compare)
         if(engine == null) {
             throw new NullPointerException();
         }
@@ -40,38 +41,48 @@ public class Engine implements Comparable<Engine> {
         if(this.equals(engine)) {
             return 0;
         } else if(this.engineCode.equalsIgnoreCase(engine.engineCode)) {
+            // scenario where the codes are the same, check displacement and compare that way
             if(this.displacement < engine.displacement) {
                 return -1;
             }
             return 1;
         } else {
+            // final scenario where neither are the same
             String longer = this.engineCode;
             String shorter = engine.engineCode;
             int defaultReturn = 1;
 
-            if(this.engineCode.length() < engine.engineCode.length()) {
-                longer = engine.engineCode;
-                shorter = this.engineCode;
-                defaultReturn = -1;
-            }
-
-            for(int i = 0; i < shorter.length(); i++) {
-                if(shorter.toLowerCase().charAt(i) > longer.toLowerCase().charAt(i)) {
-                    if(shorter.equalsIgnoreCase(this.engineCode)) {
-                        return 1;
-                    }
-                    return -1;
-                }
-
-                if(shorter.toLowerCase().charAt(i) < longer.toLowerCase().charAt(i)) {
-                    if(shorter.equalsIgnoreCase(this.engineCode)) {
-                        return -1;
-                    }
+            // try catch, check if they are only numbers and if so, do numeric comparison, else compare chars
+            try {
+                if(Integer.parseInt(longer) > Integer.parseInt(shorter)) {
                     return 1;
                 }
+                return -1;
+            } catch(Exception e) {
+                if(this.engineCode.length() < engine.engineCode.length()) {
+                    longer = engine.engineCode;
+                    shorter = this.engineCode;
+                    defaultReturn = -1;
+                }
+
+                for(int i = 0; i < shorter.length(); i++) {
+                    if(shorter.toLowerCase().charAt(i) > longer.toLowerCase().charAt(i)) {
+                        if(shorter.equalsIgnoreCase(this.engineCode)) {
+                            return 1;
+                        }
+                        return -1;
+                    }
+
+                    if(shorter.toLowerCase().charAt(i) < longer.toLowerCase().charAt(i)) {
+                        if(shorter.equalsIgnoreCase(this.engineCode)) {
+                            return -1;
+                        }
+                        return 1;
+                    }
+                }
+                // default is used when we have the same string aside from length. abcd > abc
+                return defaultReturn;
             }
-            // default is used when we have the same string aside from length. abcd > abc
-            return defaultReturn;
         }
     }
 
