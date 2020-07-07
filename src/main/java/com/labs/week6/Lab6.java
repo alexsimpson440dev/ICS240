@@ -3,7 +3,7 @@ package com.labs.week6;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Week6 {
+public class Lab6 {
 
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();

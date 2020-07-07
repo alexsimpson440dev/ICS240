@@ -3,7 +3,7 @@ package com.exercises.week6;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Week6 {
+public class Exercise6 {
     public static void main(String[] args) {
 
         // EXERCISE 1
