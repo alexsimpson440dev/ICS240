@@ -47,6 +47,7 @@ public class EngineSortedArrayBag {
                 this.engineArray = newEngineArray;
             }
         }
+
         // if there are 2 or more items in the array
         else {
             int addIndex = this.numEngines;
@@ -56,9 +57,11 @@ public class EngineSortedArrayBag {
                     break;
                 }
             }
+
             Engine[] newEngineArray = new Engine[this.engineArray.length];
             int initialArrayCounter = 0;
             for(int i = 0; i < this.engineArray.length; i++) {
+                // only iterates the initial counter when pulled from that counter.
                 if(i != addIndex) {
                     newEngineArray[i] = this.engineArray[initialArrayCounter];
                     initialArrayCounter++;
