@@ -11,7 +11,7 @@ public class Engine implements Comparable<Engine> {
 
     @Override
     public String toString() {
-        return "Engine Code: " + this.engineCode + "\tDisplacement: " + this.displacement;
+        return "\t" + this.engineCode + "\t\t\t" + this.displacement + " CI";
     }
 
     @Override

@@ -105,6 +105,41 @@ public class IntLinkedStack implements IntStackInterface
         }
    }
 
+   public int middleItem() {
+   	    if(this.isEmpty()) {
+   	        return -1;
+        } else {
+   	        int count = this.size();
+            int total = 0;
+            IntNode cursor = this.top;
+
+   	        if (count%2 == 0) {
+   	            int middle1 = count/2;
+   	            int middle2 = (count/2)+1;
+
+   	            for(int i = 1; i <= middle2; i++) {
+   	                if(i == middle1 || i == middle2) {
+   	                    total += cursor.getData();
+                    }
+   	                cursor = cursor.getLink();
+                }
+
+   	            return total/2;
+            } else {
+                int middle = (count/2)+1; // integer division rounds down, but we want to round up.
+
+                for(int i = 1; i <= middle; i++) {
+                    if(i == middle) {
+                        total += cursor.getData();
+                    }
+                    cursor = cursor.getLink();
+                }
+
+                return total;
+            }
+        }
+   }
+
    public static IntLinkedStack reverse(IntLinkedStack stack) {
    	    IntLinkedStack reversedStack = new IntLinkedStack();
    	    while (!stack.isEmpty()) {

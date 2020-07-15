@@ -7,18 +7,18 @@ public class Exercise6 {
     public static void main(String[] args) {
 
         // EXERCISE 1
-        Queue<Integer> q1 = new LinkedList<Integer>();
-
-        q1.add(0);
-        q1.add(1);
-
-        for(int i = 0; i < 10; i++) {
-            int a = q1.remove();
-            int b = q1.remove();
-            q1.add(b);
-            q1.add(a+b);
-            System.out.println(a);
-        }
+//        Queue<Integer> q1 = new LinkedList<Integer>();
+//
+//        q1.add(0);
+//        q1.add(1);
+//
+//        for(int i = 0; i < 10; i++) {
+//            int a = q1.remove();
+//            int b = q1.remove();
+//            q1.add(b);
+//            q1.add(a+b);
+//            System.out.println(a);
+//        }
 
         // my answer: NOTES: a is always the output, b is always the first in the queue
         // 0: a = 0; b = 1; new queue (1, 1); output: 0

@@ -83,6 +83,19 @@ public class IntArrayQueue implements IntQueueInterface {
         return answer;
     }
 
+    public boolean compareTo(IntArrayQueue q2) {
+        if(this.manyItems != q2.manyItems) {
+            return false;
+        } else {
+            for(int i = 0; i < this.manyItems; i++) {
+                if(this.data[this.front+i] != q2.data[q2.front+i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
 
 
     public int size() {

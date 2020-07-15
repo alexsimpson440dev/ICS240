@@ -13,20 +13,38 @@ public class Driver {
 //        System.out.println(eclipse.compareTo(dsm));
 
         EngineSortedArrayBag bag = new EngineSortedArrayBag();
-        bag.add("5", 0);
-        bag.add("C", 0);
-        bag.add("B", 0);
-        bag.add("W", 0);
-        bag.add("10", 0);
-        bag.add("A", 0);
-        bag.add("10", 20);
-        bag.add("1", 0);
-        bag.add("Z", 10);
-        bag.add("Z", 11);
-        bag.add("Y", 30);
+        bag.add("4G63T", 122);
+        bag.add("BP-4W", 110);
+        bag.add("4G63", 122);
+        bag.add("4G638", 122);
+        bag.add("4G638", 122);
 
-        for(int i = 0; i < bag.getEngineArray().length; i++) {
-            System.out.println(bag.getEngineArray()[i]);
+        EngineSortedArrayBag bag2 = new EngineSortedArrayBag();
+        bag2.add("4G63T", 122);
+        bag2.add("BP-4W", 110);
+        bag2.add("4G63", 122);
+        bag2.add("4G638", 122);
+        bag2.add("4G637", 122);
+
+        for(Engine i: bag) {
+            System.out.println(i);
         }
+
+//        System.out.println(bag.toString());
+//        System.out.println();
+//        System.out.println(bag.total());
+//        bag.replace(dsm, miata);
+//        System.out.println(bag.toString());
+//        bag.remove(dsm);
+//        bag.remove(eclipse);
+//        bag.remove(miata);
+//
+//        bag.add("4G63", 122);
+//        bag.add("4G63T", 122);
+//        bag.add("BP-4W", 110);
+
+//        for(int i = 0; i < bag.getEngineArray().length; i++) {
+//            System.out.println(bag.getEngineArray()[i]);
+//        }
     }
 }
