@@ -1,6 +1,5 @@
 package com.assignments.assignment2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -45,7 +44,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
             message.append("\n");
             message.append(this.engineArray[i].toString());
         }
-
         return message.toString();
     }
 
@@ -55,7 +53,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
                 return i;
             }
         }
-
         return -1;
     }
 
@@ -78,7 +75,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
                 occurrences++;
             }
         }
-
         return occurrences;
     }
 
@@ -95,7 +91,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
         for (int i = 0; i < this.size(); i++) {
             sum += this.engineArray[i].getDisplacement();
         }
-
         return sum;
     }
 
@@ -110,7 +105,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
         return false;
     }
 
-    // TODO: figure this out tomorrow
     // compare the input bag to the current bag
     public boolean sameContents(EngineSortedArrayBag bag) {
         if(this.equals(bag)) {
@@ -126,7 +120,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
                 return false;
             }
         }
-
         return true;
     }
 
@@ -163,7 +156,6 @@ public class EngineSortedArrayBag implements Iterable<Engine> {
                     newEngineArray[i] = engine;
                 }
             }
-
             this.engineArray = newEngineArray;
         }
     }
