@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82acf50-5eff-46ab-8e5a-4df560d5dac1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52239b4fed3801ce0308f3708fffa32258970299" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52239b4fed3801ce0308f3708fffa32258970299" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/EngineNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assignments/assignment2/EngineNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +124,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -131,34 +135,8 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EngineLinkedBagDriver">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.Driver" />
-      <module name="ICS240.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assignments.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EngineLinkedBagDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineLinkedBagDriver" />
-      <module name="ICS240.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.assignments.assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EngineSortedArrayBagSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EngineNodeSpecification">
+    <configuration name="EngineLinkedBagSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ICS240.test" />
       <extension name="coverage">
         <pattern>
@@ -167,13 +145,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.assignments.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineSortedArrayBagSpecification" />
+      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineLinkedBagSpecification" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineSortedArrayBagSpecification.test bag creation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EngineNodeSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ICS240.test" />
       <extension name="coverage">
         <pattern>
@@ -182,14 +160,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.assignments.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineSortedArrayBagSpecification" />
-      <option name="METHOD_NAME" value="test bag creation" />
+      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineNodeSpecification" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EngineNodeSpecification.test addNodeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ICS240.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignments.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.assignments.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineNodeSpecification" />
+      <option name="METHOD_NAME" value="test addNodeAfter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EngineNodeSpecification.test removeNodeAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ICS240.test" />
       <extension name="coverage">
         <pattern>
@@ -198,19 +191,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.assignments.assignment2" />
-      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineSpecification" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineNodeSpecification" />
+      <option name="METHOD_NAME" value="test removeNodeAfter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EngineNodeSpecification.test toString and display" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ICS240.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignments.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.assignments.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="com.assignments.assignment2.EngineNodeSpecification" />
+      <option name="METHOD_NAME" value="test toString and display" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EngineLinkedBagDriver" />
-        <item itemvalue="JUnit.EngineSortedArrayBagSpecification" />
-        <item itemvalue="JUnit.EngineSpecification" />
-        <item itemvalue="JUnit.EngineSortedArrayBagSpecification.test bag creation" />
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="JUnit.EngineNodeSpecification" />
+        <item itemvalue="JUnit.EngineNodeSpecification.test toString and display" />
+        <item itemvalue="JUnit.EngineNodeSpecification.test removeNodeAfter" />
+        <item itemvalue="JUnit.EngineNodeSpecification.test addNodeAfter" />
+        <item itemvalue="JUnit.EngineLinkedBagSpecification" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +249,7 @@
       <workItem from="1593555628994" duration="21875000" />
       <workItem from="1594130014951" duration="26190000" />
       <workItem from="1594826988976" duration="11652000" />
-      <workItem from="1595802069669" duration="9773000" />
+      <workItem from="1595802069669" duration="10756000" />
     </task>
     <servers />
   </component>
@@ -255,9 +265,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="424" y="257" width="1294" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590080256180" />
-    <state x="-1820" y="136" width="1720" height="1000" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591210192497">
-      <screen x="-1920" y="36" width="1920" height="1200" />
+    <state x="88" y="88" width="1505" height="875" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596517965758">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="88" y="88" width="1505" height="875" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1596517838613" />
+    <state x="88" y="88" width="1505" height="875" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596517965758" />
     <state x="100" y="100" width="1720" height="1000" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.2560.1440/0.0.1920.1200@0.0.1920.1200" timestamp="1590174741793" />
     <state x="-1820" y="136" width="1720" height="1000" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591210192497" />
     <state x="-1820" y="136" width="1720" height="1000" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591193930046" />
@@ -289,10 +301,12 @@
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
     <state x="-1285" y="332" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1592489922491" />
-    <state width="1864" height="313" key="GridCell.Tab.0.bottom" timestamp="1595814486064">
-      <screen x="-1920" y="36" width="1920" height="1200" />
+    <state width="1638" height="201" key="GridCell.Tab.0.bottom" timestamp="1596518468106">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595814486064" />
+    <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596518468106" />
+    <state width="1864" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015876" />
+    <state width="1638" height="201" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1596517965619" />
     <state width="1864" height="313" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812551724" />
     <state width="1864" height="260" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1920.1177/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1595364967117" />
     <state width="1864" height="260" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072652438" />
@@ -303,10 +317,12 @@
     <state width="1864" height="485" key="GridCell.Tab.0.bottom/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652689" />
     <state width="1864" height="448" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539938" />
     <state width="1864" height="351" key="GridCell.Tab.0.bottom/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703133" />
-    <state width="1864" height="313" key="GridCell.Tab.0.center" timestamp="1595814486062">
-      <screen x="-1920" y="36" width="1920" height="1200" />
+    <state width="1638" height="201" key="GridCell.Tab.0.center" timestamp="1596518468106">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="313" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595814486062" />
+    <state width="1638" height="201" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596518468106" />
+    <state width="1864" height="482" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015874" />
+    <state width="1638" height="201" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1596517965618" />
     <state width="1864" height="313" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812551723" />
     <state width="1864" height="260" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1920.1177/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1595364967115" />
     <state width="1864" height="260" key="GridCell.Tab.0.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072652436" />
@@ -317,10 +333,12 @@
     <state width="1864" height="485" key="GridCell.Tab.0.center/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652687" />
     <state width="1864" height="448" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539936" />
     <state width="1864" height="351" key="GridCell.Tab.0.center/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703130" />
-    <state width="1864" height="313" key="GridCell.Tab.0.left" timestamp="1595814486061">
-      <screen x="-1920" y="36" width="1920" height="1200" />
+    <state width="1638" height="201" key="GridCell.Tab.0.left" timestamp="1596518468105">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="313" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595814486061" />
+    <state width="1638" height="201" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596518468105" />
+    <state width="1864" height="482" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015874" />
+    <state width="1638" height="201" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1596517965618" />
     <state width="1864" height="313" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812551722" />
     <state width="1864" height="260" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1920.1177/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1595364967113" />
     <state width="1864" height="260" key="GridCell.Tab.0.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072652433" />
@@ -331,10 +349,12 @@
     <state width="1864" height="485" key="GridCell.Tab.0.left/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652686" />
     <state width="1864" height="448" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539935" />
     <state width="1864" height="351" key="GridCell.Tab.0.left/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703129" />
-    <state width="1864" height="313" key="GridCell.Tab.0.right" timestamp="1595814486063">
-      <screen x="-1920" y="36" width="1920" height="1200" />
+    <state width="1638" height="201" key="GridCell.Tab.0.right" timestamp="1596518468106">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1864" height="313" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595814486063" />
+    <state width="1638" height="201" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596518468106" />
+    <state width="1864" height="482" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015875" />
+    <state width="1638" height="201" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1596517965618" />
     <state width="1864" height="313" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812551724" />
     <state width="1864" height="260" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1920.1177/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1595364967116" />
     <state width="1864" height="260" key="GridCell.Tab.0.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072652437" />
@@ -345,37 +365,37 @@
     <state width="1864" height="485" key="GridCell.Tab.0.right/1920.23.2560.1417/0.0.1920.1200@0.0.1920.1200" timestamp="1590079652688" />
     <state width="1864" height="448" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591216539937" />
     <state width="1864" height="351" key="GridCell.Tab.0.right/2560.23.1680.1027/0.23.2560.1417/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591199703132" />
-    <state width="1864" height="482" key="GridCell.Tab.1.bottom" timestamp="1595812521088">
+    <state width="1864" height="482" key="GridCell.Tab.1.bottom" timestamp="1595865015879">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="482" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812246719" />
+    <state width="1864" height="482" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015879" />
     <state width="1864" height="482" key="GridCell.Tab.1.bottom/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812521088" />
     <state width="1864" height="366" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072632944" />
     <state width="1864" height="366" key="GridCell.Tab.1.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224113" />
     <state width="1864" height="350" key="GridCell.Tab.1.bottom/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973833" />
     <state width="1864" height="367" key="GridCell.Tab.1.bottom/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668111" />
-    <state width="1864" height="482" key="GridCell.Tab.1.center" timestamp="1595812521086">
+    <state width="1864" height="482" key="GridCell.Tab.1.center" timestamp="1595865015878">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="482" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812246717" />
+    <state width="1864" height="482" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015878" />
     <state width="1864" height="482" key="GridCell.Tab.1.center/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812521086" />
     <state width="1864" height="366" key="GridCell.Tab.1.center/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072632942" />
     <state width="1864" height="366" key="GridCell.Tab.1.center/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224110" />
     <state width="1864" height="350" key="GridCell.Tab.1.center/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973832" />
     <state width="1864" height="367" key="GridCell.Tab.1.center/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668110" />
-    <state width="1864" height="482" key="GridCell.Tab.1.left" timestamp="1595812521085">
+    <state width="1864" height="482" key="GridCell.Tab.1.left" timestamp="1595865015877">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="482" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812246716" />
+    <state width="1864" height="482" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015877" />
     <state width="1864" height="482" key="GridCell.Tab.1.left/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812521085" />
     <state width="1864" height="366" key="GridCell.Tab.1.left/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072632941" />
     <state width="1864" height="366" key="GridCell.Tab.1.left/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224109" />
     <state width="1864" height="350" key="GridCell.Tab.1.left/1920.23.1920.1177/0.23.1920.1057/-1920.59.1920.1177@-1920.59.1920.1177" timestamp="1592941973831" />
     <state width="1864" height="367" key="GridCell.Tab.1.left/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591198668109" />
-    <state width="1864" height="482" key="GridCell.Tab.1.right" timestamp="1595812521087">
+    <state width="1864" height="482" key="GridCell.Tab.1.right" timestamp="1595865015878">
       <screen x="-1920" y="36" width="1920" height="1200" />
     </state>
-    <state width="1864" height="482" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812246718" />
+    <state width="1864" height="482" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1200/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595865015878" />
     <state width="1864" height="482" key="GridCell.Tab.1.right/0.23.1920.1057/1920.23.1920.1177/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1595812521087" />
     <state width="1864" height="366" key="GridCell.Tab.1.right/1920.0.1920.1200/0.0.1920.1080/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594072632943" />
     <state width="1864" height="366" key="GridCell.Tab.1.right/1920.23.1920.1177/0.23.1920.1057/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1594070224112" />
@@ -404,25 +424,37 @@
     <state x="-1396" y="204" width="872" height="1032" key="search.everywhere.popup/2560.0.1680.1050/0.0.2560.1440/-1920.36.1920.1200@-1920.36.1920.1200" timestamp="1591215612132" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ICS240$DistributorSpecification.ic" NAME="DistributorSpecification Coverage Results" MODIFIED="1591210669790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.assignments.assignment1.*</FILTER>
+    <SUITE FILE_PATH="coverage/ICS240$EngineNodeSpecification_test_removeNodeAfter.ic" NAME="EngineNodeSpecification.test removeNodeAfter Coverage Results" MODIFIED="1596515686409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$EngineSortedArrayBagSpecification_test_bag_creation.ic" NAME="EngineSortedArrayBagSpecification.test bag creation Coverage Results" MODIFIED="1595365409804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ICS240$MovieSpecification.ic" NAME="MovieSpecification Coverage Results" MODIFIED="1591210928267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment1.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ICS240$MovieSpecification__1_.ic" NAME="MovieSpecification (1) Coverage Results" MODIFIED="1590176726464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.assignments.assignment1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/ICS240$Driver__1_.ic" NAME="Driver (1) Coverage Results" MODIFIED="1594062463154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.assignments.assignment2.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/ICS240$EngineSpecification.ic" NAME="EngineSpecification Coverage Results" MODIFIED="1595367817139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ICS240$EngineNodeSpecification.ic" NAME="EngineNodeSpecification Coverage Results" MODIFIED="1596518468070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment2.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ICS240$EngineSortedArrayBagSpecification.ic" NAME="EngineSortedArrayBagSpecification Coverage Results" MODIFIED="1595370819562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment2.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ICS240$EngineSortedArrayBagSpecification_test_bag_creation.ic" NAME="EngineSortedArrayBagSpecification.test bag creation Coverage Results" MODIFIED="1595365409804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ICS240$DistributorSpecification.ic" NAME="DistributorSpecification Coverage Results" MODIFIED="1591210669790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$EngineNodeSpecification_test_addNodeAfter.ic" NAME="EngineNodeSpecification.test addNodeAfter Coverage Results" MODIFIED="1596515597087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$MovieSpecification__1_.ic" NAME="MovieSpecification (1) Coverage Results" MODIFIED="1590176726464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$EngineSpecification.ic" NAME="EngineSpecification Coverage Results" MODIFIED="1595367817139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$Driver__1_.ic" NAME="Driver (1) Coverage Results" MODIFIED="1594062463154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.assignments.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ICS240$EngineNodeSpecification_test_toString_and_display.ic" NAME="EngineNodeSpecification.test toString and display Coverage Results" MODIFIED="1596515779027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.assignments.assignment2.*</FILTER>
     </SUITE>
   </component>

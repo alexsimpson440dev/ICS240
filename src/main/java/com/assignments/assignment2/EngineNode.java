@@ -40,7 +40,7 @@ public class EngineNode {
         EngineNode cursor = head;
         int answer = 0;
 
-        while (cursor != null){
+        while (cursor != null) {
             answer++;
             cursor = cursor.link;
         }
